@@ -12,7 +12,7 @@ import AboutPage from './pages/About'
 import ContactPage from './pages/Contact'
 import Coursepage from './pages/Course'
 
-import Logo from './assets/logo/Logo.png'
+import Logo from './assets/logo/logo.png'
 import AOS from 'aos'
 import CoursePage from './pages/Course'
 
