@@ -7,7 +7,5 @@ dotenv.config()
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server:{
-    port: Number(process.env.VITE_PORT)
-  }
+ base: process.env.VITE_BASE_PATH || "/misPorfolio"
 })
