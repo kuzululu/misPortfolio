@@ -128,7 +128,7 @@ useEffect(()=>{
           <form method="POST" id="formContact" className="row p-1 needs-validation" noValidate ref={formRef}>
             
             <div className="col-md-12 mb-3">
-              <label className="text-light">Name</label>
+              <label>Name</label>
               <div className="input-group">
                 <span className="input-group-text"><i className="fa fa-user"></i></span>
                 <input type="text" name="name" className="form-control" required />
@@ -136,7 +136,7 @@ useEffect(()=>{
             </div>
 
             <div className="col-md-12 mb-3">
-              <label className="text-light">Email</label>
+              <label>Email</label>
               <div className="input-group">
                 <span className="input-group-text"><i className="fa fa-envelope"></i></span>
                 <input type="email" name="email" className="form-control" required />
@@ -144,7 +144,7 @@ useEffect(()=>{
             </div>
 
             <div className="col-md-12 mb-3">
-              <label className="text-light">Contact</label>
+              <label>Contact</label>
               <div className="input-group">
                 <span className="input-group-text"><i className="fa fa-phone-alt"></i></span>
                 <input type="tel" name="contact" maxLength={11} minLength={8} pattern="^[0-9]{8,11}$" className="form-control" required onInput={(e)=>{
@@ -154,7 +154,7 @@ useEffect(()=>{
             </div>
 
             <div className="col-md-12 col-lg-12 mb-3">
-              <label className="text-light">Message</label>
+              <label>Message</label>
               <div>
                 <textarea name="msg" required rows={6} className="form-control"></textarea>
               </div>
